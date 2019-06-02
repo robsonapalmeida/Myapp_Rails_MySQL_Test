@@ -19,6 +19,7 @@ class CustomersController < ApplicationController
     
   end
   #string comment Test for git 
+  #One more change
   
   # GET /customers/1/edit
   def edit
