@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nomeempleado: MyString
+  emailempleado: MyString
+  observacion: MyText
+  agenda: 2019-05-28
+  tiposervico: MyString
+
+two:
+  nomeempleado: MyString
+  emailempleado: MyString
+  observacion: MyText
+  agenda: 2019-05-28
+  tiposervico: MyString

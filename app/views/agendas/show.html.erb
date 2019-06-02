@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nomeempleado:</strong>
+  <%= @agenda.nomeempleado %>
+</p>
+
+<p>
+  <strong>Emailempleado:</strong>
+  <%= @agenda.emailempleado %>
+</p>
+
+<p>
+  <strong>Observacion:</strong>
+  <%= @agenda.observacion %>
+</p>
+
+<p>
+  <strong>Agenda:</strong>
+  <%= @agenda.agenda %>
+</p>
+
+<p>
+  <strong>Tiposervico:</strong>
+  <%= @agenda.tiposervico %>
+</p>
+
+<%= link_to 'Edit', edit_agenda_path(@agenda) %> |
+<%= link_to 'Back', agendas_path %>

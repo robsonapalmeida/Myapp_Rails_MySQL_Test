@@ -1,0 +1,35 @@
+     invoke  active_record
+      create    db/migrate/20190524190837_create_customers.rb
+      create    app/models/customer.rb
+      invoke    test_unit
+      create      test/models/customer_test.rb
+      create      test/fixtures/customers.yml
+      invoke  resource_route
+       route    resources :customers
+      invoke  scaffold_controller
+      create    app/controllers/customers_controller.rb
+      invoke    erb
+      create      app/views/customers
+      create      app/views/customers/index.html.erb
+      create      app/views/customers/edit.html.erb
+      create      app/views/customers/show.html.erb
+      create      app/views/customers/new.html.erb
+      create      app/views/customers/_form.html.erb
+      invoke    test_unit
+      create      test/controllers/customers_controller_test.rb
+      create      test/system/customers_test.rb
+      invoke    helper
+      create      app/helpers/customers_helper.rb
+      invoke      test_unit
+      invoke    jbuilder
+      create      app/views/customers/index.json.jbuilder
+      create      app/views/customers/show.json.jbuilder
+      create      app/views/customers/_customer.json.jbuilder
+      invoke  assets
+      invoke    coffee
+      create      app/assets/javascripts/customers.coffee
+      invoke    scss
+      create      app/assets/stylesheets/customers.scss
+      invoke  scss
+      create    app/assets/stylesheets/scaffolds.scss
+
