@@ -18,7 +18,7 @@ class CustomersController < ApplicationController
     @customer = Customer.new
     
   end
-  #Test for git control
+  #string comment Test for git 
   
   # GET /customers/1/edit
   def edit
