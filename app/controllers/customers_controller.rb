@@ -1,5 +1,3 @@
-#Test
-#test2
 class CustomersController < ApplicationController
   before_action :set_customer, only: [:show, :edit, :update, :destroy]
 
@@ -20,8 +18,6 @@ class CustomersController < ApplicationController
     @customer = Customer.new
     
   end
-  #string comment Test for git 
-  #One more change
   
   # GET /customers/1/edit
   def edit
